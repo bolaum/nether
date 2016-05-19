@@ -1,0 +1,21 @@
+{
+  "name": "nether",
+  "version": "0.0.1",
+  "description": "ethereum local testnet manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Thiago Borges Abdnur <bolaum@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "nether": "index.js"
+  },
+  "dependencies": {
+    "yargs": "^4.7.1"
+  }
+}
